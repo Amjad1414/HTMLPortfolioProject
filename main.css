@@ -110,3 +110,36 @@ header{
     transform: rotate(45deg) translate(-8px, -8px);
 }
 /*-------------------------------------*/
+.header h1 {
+    padding-top: 50px;
+}
+#section1 {
+    height: 700px;
+    background-color: white;
+}
+.tagline{
+    padding-top: 50px;
+    padding-left:100px;
+}
+#about{
+    color:#f48c06;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: rgb(1,25,54);
+}
+#link-color a:hover{
+    color: #f48c06;
+}
+.clear p {
+    padding: 90px 0;
+    font-size: 25px;
+}
+.img1{
+    float: right;
+    padding-right: 100px;
+}
+.clear::after {
+  content: "";
+  clear: both;
+  display: table;
+}

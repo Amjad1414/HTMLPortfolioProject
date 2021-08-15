@@ -10,6 +10,34 @@
     <header>
         <div class="header-img">
         </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <ul>
+                    <li ><a href="#section1" onclick="myFunction(),closeNav()">About</a></li>
+                    <li ><a href="#section2" onclick="myFunction(),closeNav()">Skills</a></li>
+                    <li ><a href="#section3" onclick="myFunction(),closeNav()">Contact</a></li>
+                </ul>
+            </div>
+         </div>
+            <div id ="button"class="container" onclick="myFunction(),openNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <script>
+        function myFunction() {
+             var element = document.getElementById("button");
+             element.classList.toggle("change");
+         }
+         function openNav() {
+             document.getElementById("myNav").style.width = "100%";
+         }
+         function closeNav() {
+             document.getElementById("myNav").style.width = "0%";
+         }
+        </script>
         <div class="header">
             <h1 >Amjad Mhammad</h1>
             <h2>Graphic Designer & Developer</h2>

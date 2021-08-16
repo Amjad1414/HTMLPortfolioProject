@@ -241,3 +241,34 @@ header{
   }
 }
 /*-----------------------------*/
+#section3 {
+    height: 700px;
+    background-color: #011936;
+}
+.contact{
+    padding-top: 50px;
+    padding-left:100px;
+}
+#contactme{
+    color:white;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: #f48c06;
+}
+.contact p{
+    color: white;
+    font-size: 27px;
+}
+.fa-linkedin-square,.fa-github-square {
+    padding-left: 13px;
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+.fa-linkedin-square:hover,.fa-github-square:hover{
+    color:#82A3A1;
+}
+.icon-padding{
+    padding-top: 50px;
+    padding-left: 190px;
+}

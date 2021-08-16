@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
   <link rel="stylesheet" href="main.css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
   <title>Amjad Mohammad</title>
 </head>
 <body>
@@ -54,6 +55,25 @@
                 Now I am ready for new challenges and the chance to make an impact in another position.
                </p>
            </div>
+           <li onclick="topFunction()" class="fa fa-arrow-up" id="myBtn" title="Go to top"></li>
+           <script>
+           //Get the button:
+           mybutton = document.getElementById("myBtn");
+           // When the user scrolls down 20px from the top of the document, show the button
+           window.onscroll = function() {scrollFunction()};
+           function scrollFunction() {
+               if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+                   mybutton.style.display = "block";
+               } else {
+                   mybutton.style.display = "none";
+               }
+           }
+           // When the user clicks on the button, scroll to the top of the document
+           function topFunction() {
+               document.body.scrollTop = 0; // For Safari
+               document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+           }
+       </script>
       <div class="skills">
           <h3>
               My Skills

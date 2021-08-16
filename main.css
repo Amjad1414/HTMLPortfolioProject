@@ -166,3 +166,78 @@ header{
     color: #9fc490;
 }
 /*---------------------------*/
+#section2 {
+    height: 700px;
+    background-color: #82A3A1;
+}
+#skills{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(1,25,54);
+}
+.skills{
+    padding-top: 50px;
+}
+.skills p{
+    text-align: center;
+    font-size: 27px;
+    color:rgb(1,25,54);
+    font-weight:bold;
+}
+/*add the skills content */
+.skills-padding{
+    padding-left: 90px;
+}
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 22%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.skills-type{
+    padding-right: 10px;
+    padding-top: 28px;
+    font-size: 25px;
+    float: right;
+    color: #465362;
+
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/*-----------------------------*/

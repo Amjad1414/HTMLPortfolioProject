@@ -1,20 +1,21 @@
-## Date Created 
-- Created on Aug 16, 2021.
+## :date: Date Created 
+Created on Aug 16, 2021.
 
-## Project Title 
-My profile in HTML.
+## :bulb: Project Title 
+My profile in **HTML**.
 
-## Description 
+## :memo: Description 
 This project mades for <a href="https://github.com/codeschool-projects/HTMLPortfolioProject">HTMLPortfolioProject</a>.
-It is an HTML page that contains info about me.  
 
-## Files Used 
+It is an **HTML** page that contains info about me.  
+
+## :file_folder: Files Used 
 - index.html
 - main.css
 - contact-form-process.php
 
-## Technologies 
-- HTML
-- CSS
-- PHP
-- JavaScript
+## :star: Technologies 
+- **HTML**
+- **CSS**
+- **PHP**
+- **JavaScript**
